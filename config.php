@@ -3,7 +3,7 @@ require 'environment.php';
 
 $config = array();
 if(ENVIRONMENT == 'development') {
-	define("BASE_URL", "http://localhost/ProjectNote/");
+	define("BASE_URL", "http://localhost/Note/Note/");
 	$config['dbname'] = 'project_note';
 	$config['host'] = 'localhost';
 	$config['dbuser'] = 'root';
