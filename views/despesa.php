@@ -28,7 +28,7 @@
                     <th>Categoria</th>
                     <th>Valor</th>
 					
-	    			
+	    			 
 	    		</tr>
                 <?php
 				$total = 0;

@@ -31,9 +31,9 @@
 
 	    		</tr>
                 <?php
-				
+				$total = 0;
                 foreach($lista  as $item):
-					
+					$total +=$item['valor'];
 				?>
 				
 
@@ -42,7 +42,7 @@
 					<td><?php echo $item['descricao_rec']; ?></td>
 					<td><?php echo $item['categoria_rec']; ?></td>
                     <td><?php echo $item['valor_rec']; ?></td>
-					receita_id 	valor_rec 	data_rec 	descricao_rec 	categoria_rec
+					
 
 					
 					
@@ -62,7 +62,7 @@
 						<th></th>
 						<th></th>
 			           <td>Total</td>
-					   <td></td>
+					   <td> <?php echo $total; ?></td>
 
 			</table>
 	
