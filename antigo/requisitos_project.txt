@@ -1,0 +1,8 @@
+ProjectNote
+
+requisitos mínimos:
+-linguagem PHP, js, bootstrap, HTML, CSS
+-Database
+-calendário
+-lembretes
+-campo para textos
